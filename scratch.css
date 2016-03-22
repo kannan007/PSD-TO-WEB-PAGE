@@ -1,0 +1,531 @@
+body
+{
+	background: -webkit-linear-gradient(left, #1F062E,#B776A1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #1F062E,#B776A1 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #1F062E,#B776A1 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1F062E,#B776A1 ); /* Standard syntax (must be last) */
+}
+.topfull
+{
+	margin-top: 90px;
+}
+.snippet .glyphicon
+{
+	color: #A9AA9C;
+	padding-top: 15px;
+	font-size: 40px;
+}
+.snippet .col-md-2
+{
+	text-align: center;
+	border: 1px solid #e0e1db;
+	background-color: white;
+	border-right: none;
+}
+.snippet .col-md-2:last-child
+{
+	border: 1px solid #e0e1db;
+	border-radius: 0 5px 5px 0;
+}
+.snippet .col-md-2:first-child
+{
+	border-radius: 5px 0 0 5px;	
+}
+.snippet p
+{
+	color: #A0A193;
+	padding-top: 5px;
+}
+.snippet p:hover
+{
+	color: #e92d00;	
+}
+.snippet p:active
+{
+	color: #e92d00;		
+}
+.snippet .col-md-2:hover
+{
+	color: #e92d00;
+	border-top: 6px solid #e92d00;
+	border-bottom: 6px solid #e92d00;
+	margin-bottom: -6px;
+	margin-top: -6px;
+}
+.snippet .col-md-2:active
+{
+	margin-top: -10px;
+	color: #e92d00;
+	border-top: 6px solid #e92d00;
+	border-bottom: 6px solid #e92d00;
+}
+.center
+{
+	margin-top: 35px;
+	border-top: 5px solid #e92d00;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: white;
+	border-radius: 0 0 5px 0;
+}
+.carousel {
+	background-color: white;
+  	border: 1px solid white;	
+  	border-right: none;
+  	margin-bottom: 0px;
+  	width: 100%;
+}
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	background-color: rgba(0, 0, 0, .1);
+	border: 1px solid #aeafa0;
+}
+.carousel .item
+{
+	height: 420px;
+}
+.carousel h3
+{
+	color: #ec4720;
+	text-transform: uppercase;
+}
+.carousel .row
+{
+	padding-top: 40px;
+	padding-left: 35px;
+	width: 100%;	
+}
+.carousel h2
+{
+	color: #aca877;
+	font-size: 30pt;
+	text-transform: uppercase;
+}
+.carousel p
+{
+	font-size: 15px;
+	font-weight: 100;
+	color: #000;
+}
+.carousel-indicators .active {
+	width: 15px;
+	height: 16px;
+	margin: 0;
+	background-color: #71af42;
+}
+
+.carousel-indicators {
+	left: 21%;
+	bottom: 8.5%;
+}
+
+.carousel img
+{
+	height: 400px;
+	position: absolute;
+	top: 0;
+	margin-top: -27px;
+ 	width: 100%;
+}
+.chillies
+{
+	background:url('images/chillienew.jpg') no-repeat;
+	background-size: cover;
+	height: 225px;
+	width: 110.8%;
+	text-align: center;
+	margin-top: -20px;
+	margin-left: -15.5px;
+	padding: 0px;
+	color: #fff;
+}
+.chillies:before
+{
+	border:1px solid #c86c00 transparent;	
+	border-top: none;
+}
+.chillies h1
+{
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.chillies h4:before,
+.chillies h4:after
+{
+	content: "----";
+	padding: 8px;
+}
+.chillies .input-group
+{
+	margin-left: 40px;
+	margin-right: 80px;
+}
+#manojover:hover
+{
+	cursor: pointer;
+}
+.chillies input
+{
+	color: red;
+	padding: 10px 5px 10px 20px;
+}
+.chocolate
+{
+	background:url('images/chocolate.jpg') no-repeat;
+	height: 202px;
+	width: 110.8%;
+	margin-left: -15.5px;
+	background-size:cover;
+	border-top: 5px solid #e92d00;
+}
+.recipes,.photos,.friends
+{
+	border: 1px solid #BEBEB2 ;
+	background-color:#989989;
+	border-right: none;
+	border-top: none;
+	padding-top: 25px;
+	padding-left: 60px;
+	padding-bottom: 18px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 15px;
+}
+.recipes
+{
+	border-left: none;
+	border-radius: 0 0 0 3px;
+}
+.downall .glyphicon
+{
+	color: #AEAF9F;
+	font-size: 20px;
+	text-align: center;
+}
+.friends
+{
+	margin-right: 0;
+	border-right: 2px solid #989989;
+	border-radius: 0 0 3px 0;
+}
+.downall .btn-circle
+{
+	border:3px solid #C2C2B8;
+	border-radius: 50%;
+}
+.upright
+{
+	padding-left: 20px;
+}
+.uprightup
+{
+	border: 1px solid white transparent;
+	background-color: white;
+	border-radius: 5px 5px 3px 3px;
+}
+.uprightup img
+{
+	width: 100%;
+	height: 120px;
+}
+.uprightup h2
+{
+	padding: 10px;
+	padding-top: 10px;
+	margin-bottom: 0;
+	font-weight: bold;
+	color:#989989;
+}
+.uprightup h4
+{
+	padding-left: 12px;
+	color:#989989;
+	padding-top:0;
+	margin-top: -3px;	
+	margin-bottom: 0;
+}
+#fup
+{
+	margin-top: 27px;
+}
+.uprightup p
+{
+	color: #464644;
+	padding-left: 12px;
+	font-size: 15px;
+}
+.uprightup p:nth-child(even)
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #F5F5F5;
+}
+#lup
+{
+	padding-bottom: 14px;
+}
+.uprightup span
+{
+	padding-right: 5px;
+	color: #999A94;
+}
+.uprightdown
+{
+	padding-top: 10px;
+	border: 1px solid white transparent;
+	border-radius: 5px 5px 3px 3px;
+}
+.uprightdown img
+{
+	width: 100%;
+	height: 120px;
+}
+.kcal
+{
+	padding-top: 5px;
+	background-color: white;
+	border-right: none;
+}
+.fat
+{
+	border: 1px solid white transparent;
+	border-left: 1px solid #DADADA;
+	border-radius: 0 0 3px 0;
+	padding-top: 5px;
+	background-color: white;
+}
+.uprightdown h6
+{
+	padding-top: 10px;
+	color: #9A9889;
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+.uprightdown h4
+{
+	padding-top: 0px;
+	padding-bottom: 5px;
+	font-size: 22px;
+}
+.kcal h6
+{
+	padding-left: 9px;
+}
+.fat h6
+{
+	padding-left: 11px;
+}
+.downfull 
+{
+	margin-top: 18px;
+	margin-left: -27px;
+	margin-bottom: 80px;
+}
+fieldset
+{
+	border:1px solid white transparent;
+	border-radius: 5px;
+	background-color: white;
+}
+legend
+{
+	border:1px solid white transparent;
+	border-radius: 3px 3px 0 0;
+	color: white;
+	background-color: #60A531;
+	padding: 20px 32px;
+	font-weight: 600;
+}
+.form-group .col-md-12
+{
+	padding: 0 65px;
+	font-weight: bold;
+}
+.form-group input
+{
+	padding: 24px 20px;
+	font-size: 16px;
+}
+.form-group p
+{
+	color:#656644;
+}
+.form-group input[type="email"]::-webkit-input-placeholder {
+	color: #166b97;
+	font-weight: 700;
+}
+.buttonsfulldown .btn
+{
+	background-color: #ebece7;
+	border: none;
+	border-bottom: 1px solid transparent;
+}
+.buttonsfulldown
+{
+	border:1px solid #ccc;
+	background-color: #ebece7;
+	color: white;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+}
+#secancel
+{
+	margin-left: 2px;
+	margin-right: 0.5px;
+	margin-bottom: 0.5px;
+	border:1px solid transparent;
+	background-color: #f2f2f0;
+	padding: 22.5px 40px;
+}
+#can
+{
+	background-color: #C7C7C7;
+}
+#se
+{
+	background-color: #5FA430;	
+}
+#se,#can
+{
+	padding: 12px 40px;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+}
+.downfullrightup img
+{
+	margin-left: -14px;
+	height: 200px;
+	width: 104.5%;
+}
+.afterimgdown
+{
+	border:1px solid white transparent;
+	border-top: none;
+	background-color: white;
+	border-radius: 0 0 5px 5px;
+	padding-top: 10px;
+	padding-bottom: 160px;
+	margin-left: -14px;
+	margin-right: -15px;
+}
+.drawline
+{
+	color: #ABA979;
+	padding-left: 33px;
+}
+#lineborder
+{
+	border-right: 1px solid #E39E78;
+	padding-right: 25px;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+.drawlineright
+{
+	padding-right: 16px;
+}
+.drawlineright p
+{
+	padding-left: 2px;
+	padding-top: 25px;
+	font-size: 13px;
+	color: black;
+	font-weight: 300;
+}
+.drawlineright h4
+{
+	color: #DB7B3F;
+}
+.downfulllast
+{
+	border:1px solid white;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+.soup img
+{
+	float: left;
+	padding-left: 0px;
+	margin-left: -20px;
+	padding-right: 10px;
+	height: 100px;
+	width: 100px;
+}
+.downfulllast .soup h2,p
+{
+	color: #98998B;
+	padding-right: 15px;
+}
+.soup p
+{
+	padding-top: 0px;
+	font-size: 17px;
+	margin-top: -10px;
+}
+.lastnumber
+{
+	margin-left: -18px;
+	border-left: 1px solid #E39E78;
+	padding-left: 40px;
+	text-align: center;
+}
+.lastnumber h1
+{
+	padding-top: 0;
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 0;
+}
+.lastnumber h5
+{
+	color: #98998B;
+	margin-top: 0;
+}
+.plusorminus
+{
+	padding-left: 40px;
+	margin: 0;
+}
+.plusorminus .glyphicon
+{
+	margin-top: 0;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f2f2f0;
+	color: #9f9f9f;
+}
+.plusorminus .glyphicon-plus
+{
+	margin-top: -15px;
+	border-bottom: 1px solid #ddd;
+}
+.plusorminus .glyphicon-minus
+{
+	margin-bottom: -12px;
+}
+#valplus:hover
+{
+	cursor: pointer;
+}
+#valminus:hover
+{
+	cursor: pointer;
+}
+.finalimg img
+{
+	width: 145%;
+	height: 140px;
+	margin-bottom: -12px;
+	margin-top: -16px;
+	margin-left: -10px;
+}
